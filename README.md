@@ -76,8 +76,8 @@ Robin/finch/
 ```bash
 AZURE_OPENAI_API_KEY=your-azure-openai-api-key
 AZURE_OPENAI_ENDPOINT=https://your-resource-name.cognitiveservices.azure.com/
-AZURE_OPENAI_API_VERSION=2024-12-01-preview
-AZURE_OPENAI_DEPLOYMENT=tb-gpt-4o
+AZURE_OPENAI_API_VERSION=****
+AZURE_OPENAI_DEPLOYMENT=****
 S2_API_KEY=your-semantic-scholar-api-key
 ```
 
@@ -88,7 +88,7 @@ import os
 from openai import AzureOpenAI
 
 client = AzureOpenAI(
-    api_version=os.environ.get("AZURE_OPENAI_API_VERSION", "2024-12-01-preview"),
+    api_version=os.environ.get("AZURE_OPENAI_API_VERSION", "****"),
     azure_endpoint=os.environ["AZURE_OPENAI_ENDPOINT"],
     api_key=os.environ["AZURE_OPENAI_API_KEY"],
 )

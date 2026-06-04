@@ -99,3 +99,12 @@ SCIAGENTS/steel_kg_pipeline/steel_papers.csv
 Robin/robin/examples/example_outputs/
 Robin/finch/tutorial/tmp_results_dir/
 Robin/finch/tutorial/datasets/
+
+# Binary documentation/assets not included in slim demo upload
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+SCIAGENTS/.cache/

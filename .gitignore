@@ -1,0 +1,101 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+secrets.*
+settings.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Logs and generated outputs
+logs/
+results/
+outputs/
+workspaces/
+experiments/
+robin_output/
+tmp_results_dir/
+*.log
+*.tmp
+
+# Large/generated scientific artifacts
+*.bin
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.zip
+*.tar
+*.tar.gz
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+
+# Local agent/tool settings
+.claude/
+.autodl/
+.Trash-0/
+
+# Large generated/demo data directories
+**/data/**/*.bin
+**/data/**/*.zip
+**/graph_output/
+**/triples/
+**/tmp_results_dir/
+**/robin_output/
+**/results/
+**/logs/
+**/workspaces/
+**/experiments/
+**/outputs/
+
+# Upstream git metadata backups
+.git_upstream_backup/
+**/.git_upstream_backup/
+
+# Generated experiment runs
+AI-scientist-v2/2026-*/
+
+
+# Demo repository slimming
+*.ipynb
+AI-Scientist/data/
+AI-Scientist/example_papers/
+AI-Scientist/templates/*/run_*/
+ResearchAgent/data/
+SCIAGENTS/graph_giant_component/
+SCIAGENTS/graph_giant_component_LLMdiscovery_autoexample/
+SCIAGENTS/graph_giant_component_LLMdiscovery_example/
+SCIAGENTS/steel_kg_pipeline/steel_papers.json
+SCIAGENTS/steel_kg_pipeline/steel_papers.csv
+Robin/robin/examples/example_outputs/
+Robin/finch/tutorial/tmp_results_dir/
+Robin/finch/tutorial/datasets/

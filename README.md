@@ -95,21 +95,3 @@ client = AzureOpenAI(
 ```
 
 Semantic Scholar API 建议按 `1 request / second` 做限速。
-
-## GitHub 上传前检查
-
-上传前请确认：
-
-- 不提交 `.env` 或任何真实 API key。
-- 不提交运行日志、缓存、临时结果和 notebook checkpoint。
-- 检查 `*.py`、`*.ipynb`、`*.json`、`*.yaml` 中是否包含密钥。
-- 如果密钥曾经写入代码或日志，请先 revoke/rotate 再上传。
-- 各子项目如有原始 `LICENSE`，请保留。
-
-## 建议仓库信息
-
-```text
-Repository name: ai-for-science-agents-demo
-Description: Demo collection of five AI for Science agent systems.
-Topics: ai-for-science, llm-agents, scientific-discovery, azure-openai, semantic-scholar
-```
